@@ -7,7 +7,8 @@ x1 = 21
 x2 = 21
 
 # TODO: Import X and TC from main.ipynb;
-
+X <- read.table(file ="X.txt", header=TRUE)
+dim(X)
 
 
 # LASSO Regression;
